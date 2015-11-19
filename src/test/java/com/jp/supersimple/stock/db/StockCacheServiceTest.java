@@ -44,13 +44,4 @@ public class StockCacheServiceTest {
 		stockCacheService.addStock(new Stock("JOE", StockType.COMMON, 13, 0f,
 				250));
 	}
-
-	@Test
-	public void testGetTrades() {
-		Assert.assertNotNull(
-				"Not able to create instance of StockCacheService",
-				stockCacheService);
-		// Assert.assertNotNull("Trades map is null",
-		// stockCacheService.getTrades());
-	}
 }
